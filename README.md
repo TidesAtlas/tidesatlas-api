@@ -1,10 +1,10 @@
 # TidesAtlas API
 
-Worldwide tide predictions, marine forecasts and astronomical data for 18,000+ coastal locations.
+Worldwide tide predictions, marine forecasts and astronomical data for 13,000+ ports in 180 countries.
 
 **Base URL:** `https://tidesatlas.com/api/v1`
 
-**Documentation:** [tidesatlas.com/api/docs](https://tidesatlas.com/api/docs)
+**Documentation:** [tidesatlas.com/api/docs](https://tidesatlas.com/en/api/docs)
 
 **Dashboard:** [tidesatlas.com/api/dashboard](https://tidesatlas.com/api/dashboard)
 
@@ -12,7 +12,7 @@ Worldwide tide predictions, marine forecasts and astronomical data for 18,000+ c
 
 ## Features
 
-- **Tide predictions** for 18,000+ ports across 185 countries
+- **Tide predictions** for 13,000+ ports across 180 countries
 - **Tidal coefficients** (French coefficient scale, 20-120)
 - **Weather forecasts** — temperature, wind, precipitation, UV index
 - **Marine data** — wave height, swell, wave direction, sea state
@@ -22,7 +22,7 @@ Worldwide tide predictions, marine forecasts and astronomical data for 18,000+ c
 
 ## Quick start
 
-1. **Sign up** at [tidesatlas.com/api/register](https://tidesatlas.com/api/register) (50 free credits)
+1. **Sign up** at [tidesatlas.com/api/register](https://tidesatlas.com/api/register) (50 free credits, no credit card)
 2. Copy your API key from the dashboard
 3. Make your first call:
 
@@ -37,7 +37,7 @@ curl -H "X-API-Key: YOUR_KEY" \
 |----------|-------------|
 | `GET /tides` | High & low tide times, heights, and coefficients |
 | `GET /ports` | Search ports by name, coordinates, or country |
-| `GET /countries` | List all 185 countries with port counts |
+| `GET /countries` | List all countries with port counts |
 | `GET /weather` | Weather forecast (1-7 days) |
 | `GET /marine` | Wave & swell forecast (1-7 days) |
 | `GET /astronomy` | Sunrise, sunset, moon phase |
